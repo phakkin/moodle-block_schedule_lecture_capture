@@ -35,4 +35,5 @@ $string['checkpanoptoblock'] = 'Tarkista Panopto-lohko';
 $string['checkpanoptoblock_desc'] = 'Jos valittuna, lohko tarkistaa, onko Moodle-kurssilla Panopto-lohko näkyvissä ja suosittelee lohkon lisäämistä, jos se puuttuu.';
 $string['schedule_recordings_of_your_lectures'] = 'Ajasta luentojesi tallennukset';
 $string['sisu_course_needed'] = 'Tämä lohko toimii vain Sisusta luoduilla Moodle-kursseilla.';
-$string['panopto_block_recommended'] = 'Suositus: lisää Panopto-lohko, kun käytät ajastettuja luentotallennuksia.';
+$string['panopto_block_recommended'] = 'Suositus: lisää Panopto-lohko, kun käytät ajastettuja luentotallennuksia: Kytke muokkastila päälle, klikkaa "Lisää lohko" ja valitse "Panopto".';
+$string['click_provision_link_if_shown'] = 'Jos Panopto-lohkossa näkyy Provision course -linkki, klikkaa sitä ennen kuin ajastat tallennukset.';

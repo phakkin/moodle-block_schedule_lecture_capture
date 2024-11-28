@@ -35,4 +35,5 @@ $string['checkpanoptoblock'] = 'Check Panopto block';
 $string['checkpanoptoblock_desc'] = 'If selected, block will check if Panopto block is visible on course page and recommends to add Panopto block if it is missing.';
 $string['schedule_recordings_of_your_lectures'] = 'Schedule recordings of your lectures';
 $string['sisu_course_needed'] = 'This blocks works only in Moodle courses created from Sisu';
-$string['panopto_block_recommended'] = 'Recommendation: add Panopto block when you use scheduled recordings.';
+$string['panopto_block_recommended'] = 'Recommendation: add Panopto block when you use scheduled recordings: Switch edit mode on, click "Add a block" and select "Panopto"';
+$string['click_provision_link_if_shown'] = 'If you see a Provision course link in the Panopto block, please click it before scheduling recordings.';

@@ -76,7 +76,9 @@ class block_schedule_lecture_capture extends block_base {
                     }
                 }
                 
-                if (!$panopto_block_found) {
+                if ($panopto_block_found) {
+                    $this->content->text .= '<p>'. get_string('click_provision_link_if_shown', 'block_schedule_lecture_capture') . '</p>';
+                } else {
                     $this->content->text .= '<p>'. get_string('panopto_block_recommended', 'block_schedule_lecture_capture') . '</p>';
                 }
             }
