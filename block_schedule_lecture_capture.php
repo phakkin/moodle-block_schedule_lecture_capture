@@ -55,8 +55,8 @@ class block_schedule_lecture_capture extends block_base {
             return null;
         }
         
-        // Check if course identifier exists in course settings
-        if ($COURSE->idnumber != '' && str_starts_with($COURSE->idnumber, 'otm-') ) {
+        // Check if course identifier exists in course settings and it starts with string 'otm-'
+        if ($COURSE->idnumber != '' && substr($COURSE->idnumber, 0, 4) === 'otm-') {
             // language parameter for the link
             $lang = (current_language() == 'fi') ? 'fi' : 'en';
             // the link
